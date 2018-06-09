@@ -30,5 +30,15 @@ function johnLennonFacts(facts){
 
 }
 
+function iLoveTheBeatles(num){
+  let anArray = [];
+  let i=0;
+  do {
+      anArray.push(`I love the Beatles!`)
+      ++num;
+  }while (num < 15);
+  return anArray;
+}
+
 
   
